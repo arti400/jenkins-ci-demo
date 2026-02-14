@@ -4,7 +4,7 @@ pipeline {
   environment {
     IMAGE_NAME = 'jenkins-ci'
     IMAGE_TAG = 'v3'
-    DOCKER_USER = 'Arti'
+    DOCKER_USER = 'dockerarti123'
   }
 
   stages {
