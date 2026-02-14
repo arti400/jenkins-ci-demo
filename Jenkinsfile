@@ -4,7 +4,7 @@ pipeline {
   environment {
     IMAGE_NAME = 'jenkins-ci'
     IMAGE_TAG = 'v3'
-    DOCKER_USER = 'prayags'
+    DOCKER_USER = 'Arti'
   }
 
   stages {
@@ -12,7 +12,7 @@ pipeline {
       steps {
         sh 'rm -fr jenkins-ci-demo'
         sh 'echo "Cloning a repo..."'
-        sh 'git clone https://github.com/prayag-sangode/jenkins-ci-demo.git'
+        sh 'git clone https://github.com/arti400/jenkins-ci-demo.git'
       }
     }
 
