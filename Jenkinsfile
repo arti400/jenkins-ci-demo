@@ -56,3 +56,4 @@ pipeline {
       echo "Build or push failed. Check logs above."
     }
   }
+}
